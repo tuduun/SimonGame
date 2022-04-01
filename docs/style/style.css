@@ -7,5 +7,78 @@
 */
 
 /*
-  TODO: Implement mobile query for smaller screen sizes.
+  : Implement mobile query for smaller screen sizes.
 */
+
+
+body{
+  background-color: black;
+}
+footer{
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: aliceblue;
+  background-color: #ec0000;
+}
+
+/* ID*/
+
+#button_container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  grid-template-columns: auto auto;
+
+}
+
+#top-right{
+  background-color: #4fe654;
+}
+#top-left{
+  background-color: #ec0000;
+}
+#bottom-left{
+  background-color: #eeff00;
+}
+#bottom-right{
+  background-color: #30cdf5;
+}
+#interactButton{
+  color: aliceblue;
+  background-color: #ec0000;
+  padding: 10px 20px;
+
+}
+
+/*classes*/
+
+.buttonClass{
+  border: 3px solid rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 60px 60px;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  width: 150px;
+  display: block;
+
+}
+
+
+@media only screen and (max-width: 1024px) { 
+  /*
+    Selectors go here
+   */
+  #button_container{
+    position: absolute;
+    grid-template-columns: auto;
+    height: 75vh;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+  }
+}

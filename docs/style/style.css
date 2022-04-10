@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 /*
-  TODO: Style the game page according to guidelines
+  : Style the game page according to guidelines
   NOTE: To use the above typeface, use font-family: "Press Start 2P" -- the above is
         equivalent to importing it as a stylesheet in HTML.
 */
@@ -68,7 +68,11 @@ footer{
 
 }
 
-
+.buttonClass:hover{
+  border-top: #eeff00;
+  border-color: 1px solid #e53cf5;
+  background-color: rgb(233, 123, 248)
+}
 @media only screen and (max-width: 1024px) { 
   /*
     Selectors go here

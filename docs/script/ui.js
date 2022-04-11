@@ -44,7 +44,7 @@ function playTurn(){
         if(validatePattern()){
             playTurn();
             points++;
-            document.getElementById("interactButton").innerText = `Points: ${points}`;
+            document.getElementById("points").innerText = `Points: ${points}`;
         }else{
             console.log("You lose")
         }
@@ -81,9 +81,9 @@ gamebuttons.forEach(elem => {
     });
 });
 
-var startButton = document.getElementById("interactButton")
+var startButton = document.getElementById("points")
 startButton.addEventListener("click", () => {
-    document.getElementById("interactButton").innerText = `Points: ${points}`;
+    document.getElementById("points").innerText = `Points: ${points}`;
     startButton.style.backgroundColor = "#FF3898";
     userChoices = [];
     gamePattern = [];

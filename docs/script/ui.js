@@ -62,8 +62,6 @@ function activateButton(id){
     }, 750);
 }
 
-
-
 // Put all the IDs in an array
 const elements = Array.from(gamebuttons).map(button => {
     return button.id;

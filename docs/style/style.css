@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');*/
 
 /*
   : Style the game page according to guidelines
@@ -70,7 +70,7 @@ footer{
 
 .buttonClass:hover{
   border-top: #eeff00;
-  border-color: 1px solid #e53cf5;
+  border-color: #e53cf5;
   background-color: rgb(233, 123, 248)
 }
 @media only screen and (max-width: 1024px) { 

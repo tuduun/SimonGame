@@ -37,20 +37,28 @@ footer{
 
 #top-right{
   background-color: #4fe654;
+  color: black;
 }
 #top-left{
   background-color: #ec0000;
+  color: black;
+
 }
 #bottom-left{
   background-color: #eeff00;
+  color: black;
+
 }
 #bottom-right{
   background-color: #30cdf5;
+  color: black;
+
 }
 #points{
-  color: aliceblue;
   background-color: #ec0000;
   padding: 10px 20px;
+  color: black;
+
 
 }
 

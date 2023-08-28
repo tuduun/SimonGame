@@ -13,13 +13,13 @@ Welcome to `SimonGame`! Dive into a classic memory game brought to life in the m
 
 ## Tech Stack
 
-- **HTML & CSS**: The foundation of the game's structure and design. Check out the [style.css] for the game's styling.
-- **JavaScript**: Powers the game's logic and interactivity. Dive into the [ui.js] to see how the magic happens.
-- **Audio**: Integrated sound effects for a richer gameplay experience.
+- **HTML & CSS**: The foundation of the game's structure and design. Check out the [style.css](https://github.com/tuduun/SimonGame/blob/main/docs/style/style.css) for the game's styling.
+- **JavaScript**: Powers the game's logic and interactivity. Dive into the [ui.js](https://github.com/tuduun/SimonGame/blob/main/docs/script/ui.js) to see how the magic happens.
+- **Audio**: Integrated sound effects for a richer gameplay experience. Listen to one of the sounds [here](https://github.com/tuduun/SimonGame/blob/main/docs/audio/blue.mp3).
 
 ## How to Play
 
-1. Visit the [SimonGame] page.
+1. Visit the [SimonGame](https://tuduun.github.io/SimonGame/) page.
 2. Press any key to start the game.
 3. Watch and listen to the sequence.
 4. Repeat the sequence by clicking on the colored buttons.
